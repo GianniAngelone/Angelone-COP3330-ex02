@@ -10,7 +10,7 @@ class Exercise02 {
         {
             Scanner input = new Scanner(System.in);
             System.out.print("What is input string? ");
-            String word = input.nextLine(); //Reads the next line (NAME) input.
+            String word = input.nextLine(); 
             int length = word.length();
             System.out.println(String.format("%s has %d characters.", word, length));
         }
